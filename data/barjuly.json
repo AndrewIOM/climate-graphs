@@ -1,0 +1,137 @@
+[
+  {
+    "Year": "2011-2040",
+    "Scenarios": [
+      {
+        "Scenario": "all",
+        "Percentile5": 12.191960652669271,
+        "Percentile17": 13.618255615234373,
+        "Percentile83": 17.271666463216146,
+        "Percentile95": 18.665409342447916,
+        "Median": 15.351978556315105
+      },
+      {
+        "Scenario": "low",
+        "Percentile5": 12.08775431315104,
+        "Percentile17": 13.621886189778644,
+        "Percentile83": 17.239674886067704,
+        "Percentile95": 19.012532552083332,
+        "Median": 15.221369425455729
+      },
+      {
+        "Scenario": "medium-low",
+        "Percentile5": 12.221038818359377,
+        "Percentile17": 13.722023518880206,
+        "Percentile83": 17.133631388346359,
+        "Percentile95": 18.615264892578129,
+        "Median": 15.46647745768229
+      },
+      {
+        "Scenario": "medium-high",
+        "Percentile5": 11.741876220703125,
+        "Percentile17": 13.064432779947914,
+        "Percentile83": 17.266377766927082,
+        "Percentile95": 18.26566874186198,
+        "Median": 15.523041788736981
+      },
+      {
+        "Scenario": "high",
+        "Percentile5": 12.139538574218751,
+        "Percentile17": 13.593526204427082,
+        "Percentile83": 17.416962687174475,
+        "Percentile95": 18.898494466145831,
+        "Median": 15.294905598958335
+      }
+    ]
+  },
+  {
+    "Year": "2041-2070",
+    "Scenarios": [
+      {
+        "Scenario": "all",
+        "Percentile5": 12.672555541992185,
+        "Percentile17": 14.087947591145833,
+        "Percentile83": 17.94522908528646,
+        "Percentile95": 19.646082560221355,
+        "Median": 15.975847371419272
+      },
+      {
+        "Scenario": "low",
+        "Percentile5": 12.275350952148438,
+        "Percentile17": 13.705617268880207,
+        "Percentile83": 17.503412882486977,
+        "Percentile95": 18.94258728027344,
+        "Median": 15.458753458658853
+      },
+      {
+        "Scenario": "medium-low",
+        "Percentile5": 12.558034261067709,
+        "Percentile17": 14.121620686848964,
+        "Percentile83": 17.90769348144531,
+        "Percentile95": 19.705795288085938,
+        "Median": 16.065664672851565
+      },
+      {
+        "Scenario": "medium-high",
+        "Percentile5": 12.238839721679687,
+        "Percentile17": 13.466413370768228,
+        "Percentile83": 17.886685180664067,
+        "Percentile95": 19.229873657226566,
+        "Median": 16.030784098307294
+      },
+      {
+        "Scenario": "high",
+        "Percentile5": 13.28560078938802,
+        "Percentile17": 14.468967692057294,
+        "Percentile83": 18.573126220703124,
+        "Percentile95": 20.436919148763021,
+        "Median": 16.246840413411462
+      }
+    ]
+  },
+  {
+    "Year": "2071-2100",
+    "Scenarios": [
+      {
+        "Scenario": "all",
+        "Percentile5": 12.96167834051724,
+        "Percentile17": 14.381037218817351,
+        "Percentile83": 18.712641222723597,
+        "Percentile95": 20.637436439251079,
+        "Median": 16.516708900188576
+      },
+      {
+        "Scenario": "low",
+        "Percentile5": 12.579429889547413,
+        "Percentile17": 13.749418061355065,
+        "Percentile83": 17.351816111597518,
+        "Percentile95": 19.110651476629844,
+        "Median": 15.490893133755387
+      },
+      {
+        "Scenario": "medium-low",
+        "Percentile5": 12.586737271012932,
+        "Percentile17": 14.334545267039333,
+        "Percentile83": 18.374023437500004,
+        "Percentile95": 19.683824210331359,
+        "Median": 16.443934999663256
+      },
+      {
+        "Scenario": "medium-high",
+        "Percentile5": 12.943926581021016,
+        "Percentile17": 14.11065779061153,
+        "Percentile83": 18.809829185748921,
+        "Percentile95": 20.37632067450161,
+        "Median": 16.821417446794179
+      },
+      {
+        "Scenario": "high",
+        "Percentile5": 14.114723994814115,
+        "Percentile17": 15.282544366244613,
+        "Percentile83": 20.22430630387931,
+        "Percentile95": 22.05772031586746,
+        "Median": 17.473963244207972
+      }
+    ]
+  }
+]

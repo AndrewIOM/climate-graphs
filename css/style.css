@@ -1,0 +1,139 @@
+body {
+    font-family: "Segoe UI Light", "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", "sans-serif";
+}
+
+svg {
+  font: 0.8em 'Helvetica';
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  fill: #000;
+}
+
+.axis .tick line {
+  stroke: rgba(0, 0, 0, 0.1);
+}
+
+.area {
+  stroke-width: 1;
+}
+
+.area.outer,
+.legend .outer {
+  fill: #DBE2E5;
+  stroke: rgba(216, 216, 255, 0.8);
+}
+
+.area.inner,
+.legend .inner {
+  fill: #AFBEC5;
+  stroke: rgba(96, 96, 255, 0);
+}
+
+.median-line,
+.legend .median-line {
+  fill: none;
+  stroke: #2d89ef;
+  stroke-width: 3;
+}
+.rcp26-line,
+.legend .rcp26-line {
+  fill: none;
+  stroke: #ffc40d;
+  stroke-width: 1;
+}
+.rcp45-line,
+.legend .rcp45-line {
+  fill: none;
+  stroke: #da532c;
+  stroke-width: 1;
+}
+.rcp60-line,
+.legend .rcp60-line {
+  fill: none;
+  stroke: #ee1111;
+  stroke-width: 1;
+}
+.rcp85-line,
+.legend .prc85-line {
+  fill: none;
+  stroke: #990000;
+  stroke-width: 1;
+}
+
+
+.legend .legend-bg {
+  fill: rgba(0, 0, 0, 0.5);
+  stroke: rgba(0, 0, 0, 0.5);
+}
+
+.legend text{
+  fill: #fff;
+  font-weight: bold;
+}
+
+.bar-all{
+    opacity:0.1;
+}
+
+.bar-low {
+    fill:#ffc40d ;
+    opacity:0.2;
+}
+.bar-medium-low {
+    fill:#da532c;
+    opacity: 0.2;
+}
+.bar-medium-high {
+    fill:#ee1111;
+    opacity: 0.2;
+}
+.bar-high {
+    fill:darkred;
+    opacity: 0.2;
+}
+.bar-low-inner {
+    fill:#ffc40d ;
+    opacity: 1;
+}
+.bar-medium-low-inner {
+    fill:#da532c;
+    opacity: 1;
+}
+.bar-medium-high-inner {
+    fill:#ee1111;
+    opacity: 1;
+}
+.bar-high-inner {
+    fill:darkred;
+    opacity: 1;
+}
+
+.no-ticks g text {
+    display: none;
+}
+
+.median-line-small {
+    stroke: none;
+    fill: #2d89ef;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 60px;                  
+  height: 28px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}

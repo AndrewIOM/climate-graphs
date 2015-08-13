@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Climate Ensemble Graphs</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body id="home">
+	<h1>Climate Ensemble Graphs</h1>
+    <p>Enter some coordinates below and see how mean monthly temperatures are projected to change.</p>
+    <div class="form-panel">
+        <label id="latitude-label">Latitude: </label><input id="latitude" value="54.203671"/>
+        <label id="longitude-label">Longitude: </label><input id="longitude" value="-4.641724"/>
+        <input type="submit" id="latlon-submit"/>
+    </div>
+</body>
+</html>
